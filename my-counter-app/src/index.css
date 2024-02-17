@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#FF6868, #FF9BD2);
+}
+
+ .week1{
+  display: flex;
+}
+
+.myForm{
+  width: 30rem;
+  height: 30rem;
+  /* border: 1px solid black; */
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+.myList{
+  width: 30rem;
+  border-radius: 2rem;
+  height: 30rem;
+  margin-top: 5rem;
+  background-color: #F28585;
+}
+
+h1{
+  color: white;
+}
+
+.username{
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text]{
+  border: 2px solid #ccc;
+      border-radius: 10px;   
+      padding: 10px;         
+      width: 15rem;           
+      box-sizing: border-box;
+      outline: none;
+}
+
+input[type=text]:focus {
+  border-color: #FF6868;  
+  box-shadow: 0 0 5px #FF6868; 
+}
+
+.btn{
+  background-color: #0A1D56;
+  color: #fff;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 3rem;
+  border-color: #0A1D56; 
+  margin-left: 1rem; 
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+li{
+	padding: 5px 10px;
+  margin: 1rem;
+	background-color: #DCFFB7;
+	border-radius: 1rem;
+	border: 1px solid #DCFFB7;
+	font-size: 14px;
+  font-weight: bold;
+}
