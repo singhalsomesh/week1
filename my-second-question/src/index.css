@@ -1,5 +1,105 @@
-body {
+*{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.week1{
+  display: flex;
+  flex-direction: column;
+}
+
+.myForm{
+  width: 100%;
+  height: 50vh;
+  /* background-color: #B5C0D0; */
+  padding: 1rem;
+  box-shadow: 1px 1px #B5C0D0;
+  background-image: url("https://images.pexels.com/photos/1187974/pexels-photo-1187974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+
+.myList{
+  border: 1px solid #E78895;
+  min-height: 60vh;
+  background-color: #E78895;
+}
+
+.form-container {
+  background-color: #9BCF53;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 15rem;
+  height: 22rem;
+  border: 1px solid #CDFADB;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #CDFADB;
+}
+
+.image img{
+  width: 12rem;
+  height: 12rem;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+.fa-xmark{
+  position: relative;
+  bottom: 12rem;
 }
